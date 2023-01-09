@@ -1,0 +1,722 @@
+
+
+
+* {
+	box-sizing: border-box;
+
+}
+body{
+
+	
+	overflow: auto;
+	max-height: 100%;
+	margin:0 !important;
+	padding:0px !important;
+	font-family: "Open Sans", Sans-Serif;
+	background-color:#EDEDED;
+	line-height:26px;
+	padding: 0px !important; 
+   
+}
+img{
+
+	max-width: 100%;
+}
+.contenedor {
+	width: 1170px;
+    height: auto;
+    position: relative;
+    margin: 0px auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow: hidden;
+    max-width: 100%;
+}
+	
+#pantalla {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	/*border: solid yellow 5px;*/
+}
+
+/*------------estilos nav----------*/
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+   button{
+			background-color: #2FCDCD;
+			width: 51px;
+		    margin-left: 44%;
+		    margin-right: 44%;
+		    display: block;
+		    height: 42px;
+		    margin: 0px auto;
+		    margin-top: 23px;
+		}
+
+		nav{
+			width: 60% !important;
+			margin-left: 20% !important;
+			text-align: center !important;
+			width: 100%;
+		    height: auto;
+		    position: relative;
+		    float: left;
+		    margin: 0px auto;
+		}
+
+		ul{
+			list-style: none;
+			 display: flex;
+  			flex-direction: column;
+	      border: solid yellow 2px;
+	      justify-content: center;
+	      padding-left: 0px;
+
+
+		}
+
+		li{
+			border: solid blue 2px;
+			list-style: none;
+		}
+		 nav > ul {
+		  width: 100%;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		  padding-left: 0px;
+		  border: solid yellow 2px;
+		  margin-right: 12px;
+		 	
+
+		}
+
+
+
+		li:hover{
+			/*background-color: lightgrey;*/
+			color: black;
+
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		a:hover{
+			color: red;
+			text-decoration: none;
+			border-bottom: red 1px solid;
+
+			
+		}
+
+		.enabled-menu{
+			display: block;
+		}
+
+		.disabled-menu{
+			display: none;
+		}
+
+		#linea1{
+			position: relative;
+		    float: left;
+		    border: solid black 1px;
+		    margin-top: 4px;
+		    width: 32px;
+		}
+
+		#linea2{
+			position: relative;
+		    float: left;
+		    border: solid black 1px;
+		    margin-top: -7px;
+		    width: 32px;
+		}
+		
+
+		#linea3{
+			position: relative;
+		    float: left;
+		    border: solid black 1px;
+		    margin-top: -6px;
+		    width: 32px;
+		}
+
+		h1.logo{
+			margin: 0px;
+		    color: #C2185B;
+		    font-size: 12px;
+		    font-weight: bold
+		    padding-top: 7px;
+		    border: solid black 1px;
+		    margin-top: 10px;
+		}
+
+		h1.logo span{
+			/*border: solid blue 4px;*/
+			font-size: 12px;
+            font-weight: bold;
+		}
+
+		footer{
+				background-color: #262626;
+			}
+
+			.redes-sociales{
+				width: 100%;
+				height: auto;
+				padding: 40px 0px;
+				margin-bottom: 40px;
+				/*border: solid red 4px;*/
+				margin: 0px auto;
+			}
+
+			.redes-sociales a.icono{
+				width: 100px;
+				height: 100px;
+				font-size: 40px;
+				line-height: 100px;
+				color:#fff;
+				text-align: center;
+				background:#cbcbcb;
+				display: inline-block;
+				margin: 0px 20px;
+				text-decoration: none;
+				border-radius: 100px;
+				transition: all .3s ease;
+				
+
+
+
+			}
+
+			.redes-sociales a.twitter{
+				background:#1da1f2;
+
+			}
+
+			.redes-sociales a.instagram{
+				background:#833ab4;
+
+			}
+
+			.redes-sociales a.facebook{
+				background:#3b5998;
+
+			}
+
+			.to-top {
+				display:block; 
+				background:url(../imagenes/to-top.svg) no-repeat center center;
+			    
+				width: 60px;
+				height: 60px;
+			    position: fixed;
+			    bottom: 40px;
+			     right: 10px;
+			    border-radius: 5px;
+			     box-shadow: 0 0 10px rgba(0, 0, 0, .05);
+			    /*background-color: #053D4E;*/
+
+			    background-color: #000000;
+			    color:#fff;
+			} 
+
+
+
+			
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 576px) {
+     button{
+     	display: none;
+     }
+
+	     nav{
+		/*background-color: #DC2C2C;*/
+	    width: 100%;
+	    height: auto;
+	    position: relative;
+	    float: left;
+	    margin: 0px auto;
+	    /*border: solid red 3px;*/
+	}
+
+	.navbar-fixed {
+	   position:fixed !important;
+	   top:0;
+	   left:0; 
+	   z-index:999; 
+	   height: 101px; 
+	 }
+     nav{
+     	background-color: #262626;
+     }
+
+     ul{
+     	display:flex;
+	  justify-content: flex-end;
+     }
+
+     nav > ul {
+	  display: flex;
+	  justify-content: center;
+	  margin-right: 12px !important;
+
+	}
+
+	nav ul li {
+	  margin: 0 .75rem;
+	  list-style: none;
+	}
+	
+
+	nav ul li a{
+		color: #ffff;
+      font-size: 18px;
+      /*border: solid black 3px;*/
+      text-decoration: none;
+      margin: 0 0.75rem;
+      position: relative;
+      float: left;
+      top: 13px;
+		
+
+	}
+
+
+	
+
+	nav ul li a:hover{
+		color: #ffff;
+		/*border-bottom: 5px  #ffff !important;*/
+		/*font-weight: bold;*/
+		/*padding: 1px;*/
+     
+      border-bottom-style: solid;
+      border-bottom-color: #ffff;
+	}
+
+	.logo a img{
+		/*border: solid red 2px;*/
+		position: relative;
+		float: left;
+    
+	    
+	    margin-bottom: 2px;
+
+	}
+
+	.logo {
+		/*border: solid blue 2px;*/
+     display: inline-block;
+     font-size: 13px;
+     font-weight: bold;
+     position: relative;
+     float: left;
+     margin-top: 9px;
+
+	}
+
+	#logo-adrian{
+	    color: #ffff;
+		font-size: 15px;
+		/*border: solid red 3px;*/
+        margin-left: 10px;
+        position: relative;
+        float: left;
+        top: 8px;
+	}
+
+	#carrera{
+		color: #ffff;
+		/*border: solid black 3px;*/
+		margin-left: 10px;
+		position: relative;
+        float: left;
+        top: 10px;
+	}
+
+	
+	a:hover{
+		text-decoration: none;
+	}
+
+
+	/* estilos de header  */
+
+	header{
+	
+	max-height: 100%;
+	width: 100%;
+	height: 100vh;
+    /*background-color:red;  */
+    padding-top: 44px; 
+    position: relative;
+    float: left;
+
+}
+.big-banner{
+     background-image: url(../imagenes/foto_perfil/adrian925.jpg);
+     width: 415px;
+     height: 415px;
+     background-size: cover;
+     max-width: 100%;
+     border:solid #053D4E 13px;   
+     background-color:#FFFFFF; 
+     display:inline-block;
+     
+     padding-top: 17px;
+     border-radius: 50%;
+     margin-top: 6px;
+     padding-left: 12px;
+    
+}
+
+
+
+.title-inicio{
+   text-align: center;
+   margin-top: 73px;
+   color:#000000;
+   font-weight: 900;
+   border-bottom: medium double #053D4E;
+
+}
+.title-inicio1{
+    margin-top: 6px;
+    color:yellowgreen;
+    font-weight: 900;
+    border-bottom: medium double yellow;
+ 
+ }
+
+.img-currriculum{
+    width:35%;
+    margin-left: 35%;
+    border-style: dotted;
+}
+
+.img-currriculum-adrian{
+    
+    border-style: dotted;
+}
+
+.filters {
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+.filters ul {
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.filters ul li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+   
+}
+
+.filters ul li a {
+    margin: 0 auto;
+    color:black;
+}
+
+/* id de trabajos y blog */
+#trabajos{
+    background-color:#FFFFFF;  
+}
+
+
+
+.bg-gray-parrafo{
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+    margin-top: 0px;
+    text-align: center;
+    display:inline-block;
+    border:solid 3px brown;
+    background-color:#FFFFFF; 
+    
+}
+.bg-gray-parrafo-nav-tabs{
+
+    margin-top: 0px;
+    display:inline-block;
+    border:solid 3px brown;
+    background-color:#FFFFFF;  
+}
+
+.grid_1_4{
+	position: relative;
+	float: left;
+	width: 80vh;
+    margin-top: 0px;
+     /*border: 2px solid #EEE;*/
+     height: 600px;
+     text-align: center;
+
+
+     
+}
+
+img{
+	max-width: 100%;
+	max-height: 100vh;
+}
+
+
+
+.picture{
+	
+    height: 200px;
+
+}
+
+.picture img{
+	
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+
+.grid_1_4 h5{
+	/*border: solid blue 2px;*/
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 179px;
+}
+
+.grid_1_4 h1{
+	/*border: solid blue 2px;*/
+	font-size: 45px;
+	font-weight: bold;
+	/*margin-top: 114px;*/
+}
+
+/* zona de curriculum vitae */
+
+
+
+#curriculum{
+	padding-top: 92px;
+
+}
+#curriculum #cv-vitae{
+	/*border: solid red 3px;*/
+	display: flex;
+	justify-content: flex-start;
+	margin: 7px 10px;
+}
+
+#curriculum #laboral{
+	/*border: solid red 3px;*/
+	display: flex;
+	justify-content: flex-start;
+	margin: 30px 30px;
+	/*border: solid yellow 2px;*/
+}
+
+
+/*#proyecto #laboral-1{
+	border: solid red 3px;
+	display: flex;
+	justify-content: flex-start;
+}*/
+
+#curriculum #laboral-datos{
+	
+	text-align: justify;
+	margin: 30px 30px;
+	/*border: solid blue 2px;*/
+}
+
+
+/*---------aqui es la zona de proyecto-------------*/
+
+#proyecto{
+	padding-top: 92px;
+}
+
+
+#proyecto #cv-vitae{
+	/*border: solid blue 3px;*/
+	display: flex;
+	justify-content: flex-start;
+	margin: 7px 10px;
+}
+
+
+#proyecto #laboral{
+	/*border: solid blue 3px;*/
+	display: flex;
+	justify-content: flex-start;
+	margin: 20px 20px;
+	font-size: 35px;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------aquí es la zona de contacto---------*/
+
+
+#contacto{
+	padding-top: 92px;
+}
+
+
+#contacto #contacto-titulo{
+	/*border: solid red 3px;*/
+	display: flex;
+	justify-content: flex-start;
+	margin: 7px 10px;
+}
+
+#contacto #contacto-dato{
+	margin: 20px 20px;
+	/*border: solid red 34px;*/
+}
+
+
+
+/*---------estilos del footer--------*/
+
+/*------redes sociales-*/
+
+footer{
+	background-color: #262626;
+}
+
+.redes-sociales{
+	width: 100%;
+	height: auto;
+	padding: 40px 0px;
+	margin-bottom: 40px;
+	/*border: solid red 4px;*/
+	margin: 0px auto;
+}
+
+.redes-sociales a.icono{
+	width: 100px;
+	height: 100px;
+	font-size: 40px;
+	line-height: 100px;
+	color:#fff;
+	text-align: center;
+	background:#cbcbcb;
+	display: inline-block;
+	margin: 0px 20px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: all .3s ease;
+	
+
+
+
+}
+
+.redes-sociales a.twitter{
+	background:#1da1f2;
+
+}
+
+.redes-sociales a.instagram{
+	background:#833ab4;
+
+}
+
+.redes-sociales a.facebook{
+	background:#3b5998;
+
+}
+
+/*---------nav-top----------*/
+
+.to-top {
+	display:block; 
+	background:url(../imagenes/to-top.svg) no-repeat center center;
+    
+	width: 60px;
+	height: 60px;
+    position: fixed;
+    bottom: 40px;
+     right: 10px;
+    border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, .05);
+    /*background-color: #053D4E;*/
+
+    background-color: #000000;
+    color:#fff;
+} 
+
+
+
+
+
+	
+
+}
+
+
+@media only screen and (min-width: 550px) and (max-width: 898px) {
+
+.logo {
+		/*border: solid orange 28px;*/
+		display: none;
+    
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
