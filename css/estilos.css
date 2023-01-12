@@ -195,7 +195,7 @@ img{
 			/*----------footer redes sociales.........*/
 
 			.redes-sociales{
-				width: 100%;
+				width: 50%;
 				height: auto;
 				padding: 40px 0px;
 				margin-bottom: 40px;
@@ -214,18 +214,18 @@ img{
 
 
 			.redes-sociales a.icono{
-				width: 60px;
-				height: 60px;
-				font-size: 40px;
-				line-height: 60px;
-				color:#fff;
-				text-align: center;
-				background:#cbcbcb;
-				display: inline-block;
-				margin: 0px 20px;
-				text-decoration: none;
-				border-radius: 100px;
-				transition: all .3s ease;
+				width: 22px;
+			    height: 22px;
+			    font-size: 40px;
+			    line-height: 22px;
+			    color: #fff;
+			    text-align: center;
+			    background: #cbcbcb;
+			    display: inline-block;
+			    margin: 0px 20px;
+			    text-decoration: none;
+			    border-radius: 100px;
+			    transition: all .3s ease;
 				
 
 
