@@ -225,7 +225,7 @@ img{
 				height: 60px;
 			    position: fixed;
 			    bottom: 40px;
-			     right: 10px;
+			     right: 20px;
 			    border-radius: 5px;
 			     box-shadow: 0 0 10px rgba(0, 0, 0, .05);
 			    /*background-color: #053D4E;*/
@@ -233,6 +233,16 @@ img{
 			    background-color: #000000;
 			    color:#fff;
 			} 
+
+			/*----------footer redes sociales.........*/
+
+			.redes-sociales .icono{
+				width:50px;
+				height:50px;
+				line-height:50px;
+				font-size:20px;
+
+			}
 
 
 
@@ -709,6 +719,39 @@ footer{
 
 
 }
+
+@media screen and (max-width: 575px) {
+		header {
+			margin-top: 0px;
+			text-align: center;
+		}
+
+		header .logo h2,
+		header .logo p{
+			font-size: 12px;
+
+		}
+
+		.redes-sociales .icono{
+			width:50px;
+			height:50px;
+			line-height:50px;
+			font-size:20px;
+
+		}
+		.acerca-de .info .titulo{
+			
+			
+			font-size: 35px;
+			
+		}
+
+		.contacto .titulo{
+			
+			font-size: 35px;
+			
+
+		}
 
 
 
